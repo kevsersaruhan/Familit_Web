@@ -48,6 +48,7 @@ namespace DAL_API.Services
     public IEnumerable<LigneDeCommande> GetByProductId(int idProduct)
     {
       return h.GetAsyncList<LigneDeCommande>("LigneDeCommande/" + idProduct + "/GetByProduct");
+      // Essai
     }
   }
 }
